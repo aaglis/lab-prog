@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
-  printf("vou fazer outro teste agora.");
+int main(void){
+  printf("Iniciando meus estudos em C!\n");
   return 0;
 }
