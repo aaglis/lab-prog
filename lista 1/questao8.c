@@ -8,7 +8,7 @@ int main(void) {
   printf("digite um numero inteiro:\n");
   scanf("%d", &numeroDigitado);
 
-  quadrado = pow(numeroDigitado, 2);
+  quadrado = numeroDigitado * numeroDigitado;
 
   printf("Voce digitou o numero: %d\n", numeroDigitado);
   printf("O valor deste numero ao quadrado e: %d", quadrado);
