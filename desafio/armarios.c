@@ -89,8 +89,8 @@ int main()
         }
         else
         {
-          armarios = 0 << (desocuparArmario - 1);
-          printf("O armario %d foi desocupado.", desocuparArmario);
+          armarios &= ~(1 << (desocuparArmario - 1));
+          printf("O armario %d foi desocupado.\n", desocuparArmario);
         }
       }
       continue;
