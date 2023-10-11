@@ -17,7 +17,7 @@ int main()
   // printf("A soma do primeiro com o segundo numero e %d\n", soma);
   //             SOMANDO DOIS NÚMEROS INTEIROS
 
-  int teste = 0;
+  // int teste = 0;
 
   // teste =  1 / 2;
 
