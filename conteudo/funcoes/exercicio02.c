@@ -1,3 +1,4 @@
+// informa os valores de um vetor, através de uma função
 #include <stdio.h>
 
 void primeiraForma(int vetor[], int posicao);

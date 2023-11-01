@@ -1,3 +1,4 @@
+//recebe dois valores e retorna qual o maior valor deles
 #include <stdio.h>
 
 int maiorOuMenor(int num1, int num2);
@@ -14,8 +15,6 @@ int main(void) {
   maior = maiorOuMenor(x, y);
 
   printf("o maior numero digitado e: %d", maior);
-
-
 
   return 0;
 }
