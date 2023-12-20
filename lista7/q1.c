@@ -17,8 +17,8 @@ int main(int argc, char *argv[]) {
 
   struct pessoa pessoas[qntdPessoas];
 
-  FILE *arquivo = fopen(arquivoCSV, "w");
-  fprintf(arquivoCSV, "Nome,Idade,Curso\n");
+  FILE *arquivo = fopen("arquivo.csv", "w");
+  fprintf(arquivo, "Nome,Idade,Curso\n");
 
   for(int i = 0; i < qntdPessoas; i++) {
     receberDados(&pessoas[i]);
@@ -35,10 +35,10 @@ void receberDados(struct pessoa *d) {
 
   printf("Idade: "); 
   scanf("%d", &d->idade);
+  getchar();
 
   printf("Curso: ");
   fgets(d->curso, TAM, stdin);
-  getchar();
 }
 
 void arquivoCSV(struct pessoa *d, FILE *arquivo) {
